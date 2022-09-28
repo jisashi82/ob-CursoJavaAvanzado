@@ -2,6 +2,8 @@ package io.codemalone.pattern.singleton;
 
 /*
  * Singleton ingenuo (thread safe) este Singleton es Lazy
+ * Utiliza el patrón Singleton cuando una clase de tu programa tan solo deba tener una instancia disponible 
+ * para todos los clientes; por ejemplo, un único objeto de base de datos compartido por distintas partes del programa.
  * */
 
 public class Singleton {
